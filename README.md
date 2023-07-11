@@ -1,2 +1,2 @@
 # IntelliSpect
-## Context-based explanations using OpenAI's ChatGPT.
+Context-based explanations using OpenAI's ChatGPT.
