@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "IntelliSpect",
-	"description": "Context-based explanation using OpenAI's ChatGPT.",
+	"description": "Context-based explanations using OpenAI's ChatGPT.",
 	"version": "1.0",
 	"permissions": ["activeTab", "contextMenus", "scripting"],
 	"background": {

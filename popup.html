@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<script src="popup.js"></script>
+		<link rel="stylesheet" type="text/css" href="popup.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"> 
+	</head>
 	<body>
-		<p>This is where your explanation will be.</p>
+		<div id="signin-page">
+			<h1 id="intelli">intelli</h1>
+			<div id="highlight-box">
+				<h1 id="spect">spect</h1>
+			</div>
+			<input type="text" id="apiKeyInput" placeholder="Enter your ChatGPT API key">
+			<button id="signInButton">Sign In</button>
+			<p id="errorMessage"></p>
+		</div>
+		<div id="explanation-page" style="display: none;">
+			<div id="explanation">This is where your explanation will be.</div>
+		</div>
 	</body>
 </hmtl>
